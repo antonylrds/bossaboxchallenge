@@ -1,0 +1,29 @@
+{
+  "name": "bossaboxchallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/antonylrds/bossaboxchallenge.git",
+  "author": "antonylrds <42950733+antonylrds@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "prettier": "^1.18.2",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
