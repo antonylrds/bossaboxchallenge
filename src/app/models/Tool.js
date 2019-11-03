@@ -7,11 +7,7 @@ class Tool extends Model {
         title: Sequelize.STRING,
         description: Sequelize.STRING,
         link: Sequelize.STRING,
-        id: {
-          type: Sequelize.UUID,
-          defaultValue: Sequelize.UUIDV4,
-          primaryKey: true,
-        },
+        tags: Sequelize.VIRTUAL,
       },
       {
         sequelize: connection,
